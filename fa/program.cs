@@ -170,7 +170,7 @@ namespace fans
   {
     static void Main(string[] args)
     {
-      String s = "011111";
+      String s = "01111";
       FA1 fa1 = new FA1();
       bool? result1 = fa1.Run(s);
       Console.WriteLine(result1);
