@@ -141,7 +141,7 @@ namespace fans
  public static State c = new State()
   {
   Name = "c",
-  IsAcceptState = false,
+  IsAcceptState = true,
   Transitions = new Dictionary<char, State>()
   };
   State InitialState = a; 
